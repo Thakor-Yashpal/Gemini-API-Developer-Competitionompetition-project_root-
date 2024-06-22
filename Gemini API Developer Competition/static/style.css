@@ -1,4 +1,3 @@
-/* static/styles.css */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,14 +20,14 @@ header {
     background-color: #007bff;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center the logo and button */
-}
+    text-align: center; 
+    
 
 .company-logo {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px; /* Add space between logo and header content */
+    margin-right: 10px;
 }
 
 .container {
