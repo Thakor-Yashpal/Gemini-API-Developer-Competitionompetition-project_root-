@@ -27,5 +27,5 @@ AI Room Recommendations integrates advanced AI technologies to provide personali
   
 - **Dynamic Recommendations**: Powered by TensorFlow, the AI dynamically updates and refines decor suggestions based on user preferences and room characteristics.
 
-These technologies collectively enable the application to deliver tailored design inspirations, enhancing user experience and satisfaction.
+
 
