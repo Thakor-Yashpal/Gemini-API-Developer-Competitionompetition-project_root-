@@ -1,0 +1,83 @@
+/* static/styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the logo and button */
+}
+
+.company-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Add space between logo and header content */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type=file] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #004081;
+}
+
+#recommendations {
+    margin-top: 40px;
+}
+
+#recommendationResults {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
